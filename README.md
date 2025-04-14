@@ -1,12 +1,64 @@
-# React + Vite
+# 💸 Expense Tracker (Phase 2 Code Challenge)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple Expense Tracker built with React as part of the Flatiron Phase 2 Code Challenge. The app allows users to add, view, search, sort, and delete expenses.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### ✅ Core Deliverables
+- **View Expenses**: See a table of all added expenses
+- **Add Expenses**: Fill out a form to submit a new expense
+- **Search**: Filter expenses by typing into the search bar (matches description)
 
-## Expanding the ESLint configuration
+### ⭐ Advanced Features
+- **Sort**: Sort expenses alphabetically by description or category
+- **Delete**: Remove an expense from the table
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Technologies Used
+
+- React
+- JavaScript (ES6+)
+- HTML & CSS
+- Vite / Create React App
+- Git & GitHub
+
+##  Installation Instructions
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/expense-tracker.git
+   cd expense-tracker
+```
+2.Install dependencies:
+
+```bash
+
+npm install
+Run the app:
+1```
+bash
+
+npm run dev  # for Vite
+# or
+npm start     # for Create React App
+```
+
+## Project Structure
+css
+Copy
+Edit
+src/
+├── components/
+│   ├── ExpenseForm.jsx
+│   ├── ExpenseTable.jsx
+│   └── SearchBar.jsx
+├── App.jsx
+├── main.jsx
+└── index.css
+## Demo
+Live site: Your Vercel/Netlify URL Here
+
+## Author
+HUSSEIN
+
+Thanks for checking out the project!
+
